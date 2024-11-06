@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div1 {
+    margin-top: 10%;  
+    position: relative; 
+}
+.d1{
+    background-color: rgb(100, 100, 224);
+    width: 90%;
+    height: 60px;
+    padding-top: 1% ;
+    position: absolute;
+    z-index: 1;
+    left: 5%;
+}
+.d1 a{
+    font-size: 20px;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+.d11 {
+    background-size: 100% 100%;
+    background-image: url(./Images/bg-image.jpeg);
+    height: 700px;
+    z-index: -1;
+}
+.d101{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(3, 41, 99);
+    position: absolute;
+    opacity: 0.8;
+    
+}
+.d22 img{
+    width: 50%;
+    height: 500px;
+    position: absolute;
+    top: 150px;
+    left: 47%;
+    right: 0%;
+    z-index: 1;
+}
+.d33 img{
+    width: 50%;
+    height: 540px;
+    position: absolute;
+    top: 160px;
+    left: 40%;   
+    z-index: 2;
+}
+.d4 i{
+    position: absolute;
+    top: 24%;
+    left: 32%;
+    color: rgb(233, 169, 49);
+    font-weight: bold;
+    font-size: 90px;
+}
+.d44 p{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    z-index: 1;
+    font-weight: bold;
+    font-size: 70px;
+}
+.d5{
+    position: absolute;
+    top: 70%;
+    left: 8%;
+    color: white;
+    font-weight: bold;
+    font-size: 200%;
+}
+.d6{
+    position: absolute;
+    top: 90%;
+    left: 8%;
+    width: 25%;
+    height: 48px;
+    background-color: #0774b3;
+    border-radius: 25px;
+}
+.d6 a{
+    position: absolute;
+    top: 32%;
+    left: 15%;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size:13px;
+    font-weight: bold;
+}
+.d6:hover{
+    background-color: black;
+}
+.d7{
+    background-color: #0774b3;
+    position: absolute;
+    top: 20px;
+    left: 8%;
+    border-radius: 50%;
+}
+.d8{
+    position: absolute;
+    top: 18%;
+    left: 8%;
+    width: 140px;
+    height: 140px;
+    z-index: 0;
+    background-color: #30a0e0;
+    border-radius: 50%;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-name: ball;
+    animation-iteration-count: infinite;
+}
+@keyframes ball {
+    0%{
+        transform:translate(0,0);
+    }
+    25%{
+        transform: translate(-80px,40px);
+    }
+    100%{
+        transform: translate(0,0);
+    }
+    
+}
+.d9{
+    position: absolute;
+    top: 22%;
+    left: 55%;
+    width: 40px;
+    height: 40px;
+    z-index: 0;
+    background-color: rgb(141, 35, 211);
+    border-radius: 50%;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-name: small;
+    animation-iteration-count: infinite;
+}
+@keyframes small {
+    0%{
+       transform: translate(0,0);
+    }
+    25%{
+        transform: translate(50px,35px);
+    }
+    
+}
+.circle1 {
+    position: absolute;
+    top: 85%;
+    left: 36%;
+    height: 100px;
+    width: 100px;
+    background-color: #32adb6;  
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cir2{
+    height: 50px;
+    width: 50px;
+}
+.cir{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(3, 41, 99);
+    position: absolute;
+    opacity: 0.8;
+}

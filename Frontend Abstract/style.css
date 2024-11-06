@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div1 img{
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.div1{
+    height:70px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 0 80px;
+}
+.div1 a{
+    color: white;
+    text-decoration: none;
+}
+.div2{
+    background-color: #dadbf1;
+    width: auto;
+    height: 300px;
+}
+.h2{
+    padding-top: 90px;
+    padding-left: 30%;
+    font-size: 50px;
+    color: black;
+}
+input{
+    width: 46%;
+    height: 40px;
+    margin-left: 25%;
+    border-radius: 5px;
+}
+button{
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
+.submit{
+    background-color: black;
+    border: 1px solid white;
+    margin-left: 50%;
+}
+.signin{
+    background-color: #4C5FD5;
+    border: none;
+    outline: none;
+}
+.aa{
+    margin-top: 100px;
+    margin-left: 10%;
+    display: flex;
+    text-align: justify;
+}
+img{
+    margin-right: 20px;
+}
+.a{
+    margin-right: 10%;
+}
+.a h3{
+    font-size: large;
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+.a p{
+    font-size: 20px;
+}
+.a a{
+    color: #4C5FD5;
+    text-decoration: none;
+    font-size: 17px;
+}
+.div3{
+    margin-top: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 40px 80px;
+    
+}
+.link a{
+    font-size: 15px;
+    color: white ;
+    text-decoration: none;
+}
+.link{
+    margin-left: 30px;
+}
+.link img{
+    margin-top: 120px;
+    margin-left: 180px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.link p{
+    font-size: 80%;
+    margin-top: 10px;
+    margin-left: 180px;
+}
+.help button{
+    background-color: #4C5FD5;
+    border-radius: 30px;
+    border: 2px solid white;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+
+}
+@media screen and (max-width:800px) {
+    .aa{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        margin-top: 20px;
+    }
+    .a{
+        margin-top: 20px;
+    }
+    .div3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .link{
+        margin-top: 20px;
+    }
+    .submit,.signin{
+        display: none;
+    }
+}
